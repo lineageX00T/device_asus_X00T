@@ -108,7 +108,13 @@ PRODUCT_PACKAGES += \
     gralloc.sdm660 \
     hwcomposer.sdm660 \
     memtrack.sdm660 \
-    libdisplayconfig \
+    libdisplayconfig.qti \
+    libdisplayconfig.qti.vendor \
+    libqdMetaData.vendor \
+    libvulkan \
+    vendor.display.config@1.11.vendor \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor \
     libgralloc.qti \
     libtinyxml \
     libqdMetaData \
@@ -284,7 +290,9 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    android.hardware.media.c2@1.0.vendor \
+    libstagefright_enc_common
 
 # Overlays
 PRODUCT_PACKAGES += \
