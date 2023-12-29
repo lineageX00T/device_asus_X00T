@@ -2,6 +2,9 @@
 # system.prop for sdm660
 #
 
+# Audio
+af.resampler.quality=255
+
 # Bluetooth
 bt.max.hfpclient.connections=1
 
@@ -22,6 +25,12 @@ ro.vendor.use_data_netmgrd=true
 vendor.display.enable_default_color_mode=1
 vendor.gralloc.enable_fb_ubwc=1
 vendor.display.disable_skip_validate=1
+vendor.display.disable_inline_rotator=1
+vendor.display.disable_partial_split=1
+
+# Fling
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
 
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
@@ -31,7 +40,6 @@ persist.vendor.overlay.izat.optin=rro
 
 # Graphics
 debug.hwui.skia_atrace_enabled=false
-debug.sf.auto_latch_unsignaled=true
 dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
 sdm.debug.disable_skip_validate=1
@@ -52,10 +60,6 @@ ro.nfc.port=I2C
 
 # NTP Server
 persist.backup.ntpServer="0.pool.ntp.org"
-
-# Perf
-ro.vendor.qti.sys.fw.bg_apps_limit=32
-vendor.perf.gestureflingboost.enable=true
 
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
