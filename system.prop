@@ -44,6 +44,7 @@ persist.sys.iscdfinger_998eas=1
 persist.vendor.overlay.izat.optin=rro
 
 # Graphics
+debug.sf.disable_backpressure=1
 dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
 persist.hwc.enable_vds=1
@@ -61,7 +62,7 @@ ro.hwui.texture_cache_flushrate=0.4
 ro.hwui.text_small_cache_width=1024
 ro.hwui.text_small_cache_height=1024
 ro.hwui.text_large_cache_width=2048
-ro.hwui.text_large_cache_height=1024
+ro.hwui.text_large_cache_height=2048
 
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml

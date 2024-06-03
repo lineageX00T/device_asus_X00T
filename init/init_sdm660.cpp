@@ -89,7 +89,7 @@ void vendor_load_properties()
     property_override("ro.boot.verifiedbootstate", "green");
     property_override("ro.boot.veritymode", "enforcing");
     property_override("ro.boot.vbmeta.device_state", "locked");
-    property_override("ro.build.description", "sdm660_64-user 10 QKQ1 72 release-keys");
-    property_override("ro.build.fingerprint", "asus/ASUS_X00TD/ASUS_X00TD:10/QKQ1/17.2017.2012.438-20201203:user/release-keys");
-    property_override("ro.system.build.fingerprint", "asus/ASUS_X00TD/ASUS_X00TD:10/QKQ1/17.2017.2012.438-20201203:user/release-keys");
+    property_override("ro.build.description", "coral-user 10 QQ3A.200705.002 6506677 release-keys");
+    property_override("ro.build.fingerprint", "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys");
+    property_override("ro.system.build.fingerprint", "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys");
 }
