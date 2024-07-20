@@ -19,7 +19,7 @@ rm -rf hardware/nad/interfaces
 rm -rf vendor/lineage-priv
 
 git clone --depth=1 https://github.com/lineageX00T/android_vendor_asus -b lineage-17.1 vendor/asus
-git clone --depth=1 --recursive https://github.com/Tiktodz/android_kernel_asus_sdm636 -b staging kernel/asus/sdm660
+git clone --depth=1 --recursive https://github.com/texascake/kernel_asus_sdm660 kernel/asus/sdm660
 rm -rf kernel/asus/sdm660/KernelSU/userspace
 rm -rf kernel/asus/sdm660/KernelSU/website
 git clone --depth=1 https://github.com/lineageX00T/android_build -b lineage-17.1 build/make
