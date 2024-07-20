@@ -467,4 +467,7 @@
          etc. dialogs. -->
     <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
 
+    <!-- Comma-separated list of bluetooth, wifi, and cell. -->
+    <string name="def_airplane_mode_radios" translatable="false">cell</string>
+
 </resources>
