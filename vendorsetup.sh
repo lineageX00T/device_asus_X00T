@@ -15,5 +15,5 @@ rm -rf vendor/asus
 git clone --depth=1 https://github.com/Tiktodz/vendor_asus -b lineage-17.1 vendor/asus
 
 # Vendor keys
-rm -rf vendor/lineage-priv
-git clone https://github.com/texascake/vendor -b 10 keymoment && cp -R keymoment/* vendor/ && rm -rf keymoment
+#rm -rf vendor/lineage-priv
+#git clone https://github.com/texascake/vendor -b 10 keymoment && cp -R keymoment/* vendor/ && rm -rf keymoment
