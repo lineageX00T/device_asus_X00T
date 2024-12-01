@@ -18,4 +18,20 @@ git clone --depth=1 https://github.com/Tiktodz/vendor_asus -b lineage-17.1 vendo
 rm -rf vendor/lineage-priv
 git clone https://github.com/texascake/vendor -b 10 keymoment && cp -R keymoment/* vendor/ && rm -rf keymoment
 
+cd vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
+git revert 77b2942935a58a36e00821eb0836f90fb02edee7 --no-edit
+cd ../../../../../../..
+
+cd vendor/qcom/opensource/commonsys/system/bt
+git revert 70750edace71473e69cca83023972066e8233d2e --no-edit
+cd ../../../../../..
+
+cd system/bt
+git revert 26c752cae91c2483bdbc16c49d5f62dffb4a784a --no-edit
+cd ../..
+
+cd packages/apps/Bluetooth
+git revert f9b4d83aff0d3dac5d73676b251fd1e14c5bf682 --no-edit
+cd ../../..
+
 export TZ=Asia/Jakarta
