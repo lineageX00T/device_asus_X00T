@@ -3,7 +3,7 @@
 #
 
 # Audio resampler
-af.resampler.quality=4
+af.resampler.quality=7
 
 # Bluetooth
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
