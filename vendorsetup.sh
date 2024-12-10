@@ -34,4 +34,10 @@ cd packages/apps/Bluetooth
 git revert f9b4d83aff0d3dac5d73676b251fd1e14c5bf682 --no-edit
 cd ../../..
 
+rm -rf frameworks/base
+git clone --depth=1 https://github.com/texascake/android_frameworks_base -b lineage-17.1 frameworks/base
+
+rm -rf vendor/lineage
+git clone --depth=1 https://github.com/lineageX00T/android_vendor_lineage -b rev vendor/lineage
+
 export TZ=Asia/Jakarta
